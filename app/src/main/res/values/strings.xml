@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FormDaggerMVPExample</string>
+    <string name="form_text">Form</string>
+    <string name="name_text">Name</string>
+    <string name="lastname_text">LastName</string>
+    <string name="age_text">Age</string>
+    <string name="number_text">Number</string>
+    <string name="enter_text">Enter</string>
+</resources>

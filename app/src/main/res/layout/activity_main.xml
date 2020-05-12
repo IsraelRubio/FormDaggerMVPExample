@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Form.FormViewActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/form_text"
+        android:textColor="@android:color/holo_blue_light"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:textSize="30sp" />
+
+    <EditText
+    android:id="@+id/editName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:importantForAutofill="no"
+    android:inputType="textPersonName"
+    android:layout_margin="10dp"
+    android:hint="@string/name_text"/>
+
+    <EditText
+        android:id="@+id/editLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:layout_margin="10dp"
+        android:hint="@string/lastname_text"/>
+
+    <EditText
+        android:id="@+id/editAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:hint="@string/age_text"/>
+
+    <EditText
+        android:id="@+id/editNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        android:inputType="number|phone"
+        android:layout_margin="10dp"
+        android:hint="@string/number_text"/>
+
+    <Button
+        android:id="@+id/buttonEnter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/enter_text"/>
+
+
+</LinearLayout>
